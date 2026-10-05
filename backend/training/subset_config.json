@@ -1,0 +1,22 @@
+{
+  "dataset_root": "data",
+  "bdd_root": "data/bdd100k",
+  "rwvc_root": "data/rwvc-bdd100k",
+  "train_size": 3000,
+  "val_size": 500,
+  "test_size": 500,
+  "seed": 42,
+  "min_per_class": 20,
+  "allowed_classes": [
+    "person",
+    "rider",
+    "car",
+    "truck",
+    "bus",
+    "train",
+    "motorcycle",
+    "bicycle",
+    "traffic light",
+    "traffic sign"
+  ]
+}

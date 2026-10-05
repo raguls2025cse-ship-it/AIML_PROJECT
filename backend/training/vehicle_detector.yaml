@@ -1,0 +1,15 @@
+train: ../data/processed/yolov8/train/images
+val: ../data/processed/yolov8/val/images
+nc: 10
+names: [
+  'person',
+  'rider',
+  'car',
+  'truck',
+  'bus',
+  'train',
+  'motorcycle',
+  'bicycle',
+  'traffic light',
+  'traffic sign'
+]
